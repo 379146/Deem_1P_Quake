@@ -1,0 +1,9 @@
+---- vis / ericw-tools v0.18.1 ----
+running with 8 threads
+testlevel = 4
+LoadBSPFile: 'Deem_Single_Player.bsp'
+BSP is version BSP2
+ 14307 leafs
+ 51994 portals
+************ ERROR ************
+Leaf with too many portals
