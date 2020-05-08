@@ -7806,7 +7806,7 @@
 // brush 863
 {
 ( -576 -2880 -32 ) ( -576 -2879 -32 ) ( -576 -2880 -31 ) 64_brown_3 -0 -0 -0 1 1
-( -576 -2880 -32 ) ( -576 -2880 -31 ) ( -575 -2880 -32 ) 64_brown_3 -32 -0 -0 1 1
+( -576 -2896 -32 ) ( -576 -2896 -31 ) ( -575 -2896 -32 ) 64_brown_3 -32 -0 -0 1 1
 ( -576 -2880 -32 ) ( -575 -2880 -32 ) ( -576 -2879 -32 ) 64_brown_3 -32 -0 -0 1 1
 ( -544 -2592 -0 ) ( -544 -2591 -0 ) ( -543 -2592 -0 ) 64_brown_3 -32 -0 -0 1 1
 ( -544 -2592 -0 ) ( -543 -2592 -0 ) ( -544 -2592 1 ) 64_brown_3 -32 -0 -0 1 1
@@ -70383,4 +70383,49 @@
 {
 "classname" "info_player_start"
 "origin" "-2704 -2752 24"
+}
+// entity 2
+{
+"classname" "item_shells"
+"origin" "1888 -2576 -0"
+}
+// entity 3
+{
+"classname" "item_armor1"
+"origin" "1840 -2528 16"
+"angle" "270"
+}
+// entity 4
+{
+"classname" "item_shells"
+"origin" "1888 -2544 -0"
+}
+// entity 5
+{
+"classname" "monster_knight"
+"origin" "2336 -2928 40"
+}
+// entity 6
+{
+"classname" "monster_demon1"
+"origin" "2496 -3344 40"
+"angle" "90"
+}
+// entity 7
+{
+"classname" "monster_army"
+"origin" "1920 -3360 40"
+"angle" "90"
+}
+// entity 8
+{
+"classname" "monster_army"
+"origin" "2016 -3264 40"
+"angle" "180"
+}
+// entity 9
+{
+"classname" "monster_dog"
+"origin" "2176 -3408 24"
+"angle" "90"
 }
