@@ -4,82 +4,83 @@ Output file: Deem_Single_Player.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-        46974 faces
-         7800 brushes
-           10 entities
-           26 unique texnames
-         2655 texinfo
+        60252 faces
+        10013 brushes
+          529 entities
+          113 unique texnames
+         3843 texinfo
 
 Opened WAD: F:/QuakeDev/wads/prototype_1_2.wad
+Opened WAD: F:/QuakeDev/wads/rogue.wad
+Opened WAD: F:/QuakeDev/wads/hipnotic.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-         7800 brushes
-         1980 planes
+         9868 brushes
+         2155 planes
 ---- CSGFaces ----
-        46974 brushfaces
-        40387 csgfaces
-        37161 mergedfaces
+        59382 brushfaces
+        47225 csgfaces
+        43111 mergedfaces
 ---- SolidBSP ----
-        49416 split nodes
-        21528 solid leafs
-        27123 empty leafs
-          766 water leafs
+        53694 split nodes
+        22896 solid leafs
+        29941 empty leafs
+          858 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        86675 leaffaces
-        81883 nodefaces
+        96039 leaffaces
+        90794 nodefaces
 ---- Portalize ----
-        27889 vis leafs
-        27889 vis clusters
-        95643 vis portals
+        30799 vis leafs
+        30799 vis clusters
+       106569 vis portals
 ---- FillOutside ----
-         1183 outleafs
+         1472 outleafs
 ---- MergeAll ----
-        37328 mergefaces
+        42547 mergefaces
 ---- SolidBSP ----
-        22842 split nodes
-         8510 solid leafs
-        13963 empty leafs
-          370 water leafs
+        25319 split nodes
+         9347 solid leafs
+        15548 empty leafs
+          425 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        61439 leaffaces
-        51011 nodefaces
+        68222 leaffaces
+        57029 nodefaces
 ---- Portalize ----
-        14333 vis leafs
-        14333 vis clusters
-        52079 vis portals
+        15973 vis leafs
+        15973 vis clusters
+        58501 vis portals
 ---- Tjunc ----
-        34950 world edges
-       172743 edge points
-        40577 edges added by tjunctions
+        38790 world edges
+       190662 edge points
+        44033 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+*** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote Deem_Single_Player.bsp
-         2770 planes            55400
-        65477 vertexes         785724
-        22842 nodes           1005048
-         2425 texinfo           97000
-        51011 faces           1428308
-        58625 clipnodes        703500
-        14334 leafs            630696
-        61439 marksurfaces     245756
-       244620 surfedges        978480
-       122311 edges            978488
-           26 textures         180668
+         3048 planes            60960
+        73629 vertexes         883548
+        25923 nodes           1140612
+         3381 texinfo          135240
+        57963 faces           1622964
+        51451 clipnodes        617412
+        16593 leafs            730092
+        69156 marksurfaces     276624
+       275908 surfedges       1103632
+       138175 edges           1105400
+          123 textures        1377616
               lightdata             0
               visdata               0
-              entdata             650
+              entdata           37315
 
-8.521 seconds elapsed
-Peak memory usage: 319174696 (304.4M)
+9.501 seconds elapsed
+Peak memory usage: 357640700 (341.1M)

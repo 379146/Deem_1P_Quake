@@ -1,33 +1,45 @@
 ---- light / ericw-tools v0.18.1 ----
+extra 4x4 sampling enabled
 Raytracing backend: Embree
 running with 8 threads
 LoadBSPFile: 'Deem_Single_Player.bsp'
 BSP is version BSP2
 --- LoadEntities ---
-10 entities read, 0 are lights.
+WARNING: brush entity with mins (1857.00 -927.00 49.) maxs (1919.00 -913.00 143) (func_door) has targetname "name" which is not targetted by anything.
+529 entities read, 239 are lights.
 --- OptionsSummary ---
+    "light" was set to "15.000000" from map
+    "bounce" was set to "1" from commandline
+    "sunlight" was set to "300.000000" from map
+    "sunlight2" was set to "300.000000" from map
+    "sunlight_mangle" was set to "0.353553 0.612372 -0.707107" from map
+    "sunlight_penumbra" was set to "4.000000" from map
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	628 sky faces
-	49101 solid faces
+	603 sky faces
+	54186 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 0 initial lights
-SetupLights: 0 after surface lights
-SetupLights: 0 after jittering
+SetupLights: 239 initial lights
+SetupLights: 239 after surface lights
+SetupLights: 239 after jittering
+using 65 suns for _sunlight2. total light: 300.000000 color: 255.000000 255.000000 255.000000
 --- EstimateLightVisibility ---
-
-Final count: 0 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 239 lights 129 suns in use.
 --- LightWorld ---
+--- MakeTextureColors ---
+--- MakeBounceLights ---
+0....1....2....3....4....5....6....7....8....9....
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 0
+lightdatasize: 1738466
 0 switchable light styles (32 max)
 Writing Deem_Single_Player.bsp as BSP version BSP2
-3.485 seconds elapsed
+468.243 seconds elapsed
 
 stats:
-0.000000 lights tested, 0.000000 hits per sample point
-0.000000 bounce lights tested, 0.000000 hits per sample point
-0 empty lightmaps
+0.514818 lights tested, 0.234130 hits per sample point
+119.149253 bounce lights tested, 41.978184 hits per sample point
+76 empty lightmaps

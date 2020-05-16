@@ -3,7 +3,7 @@ running with 8 threads
 testlevel = 4
 LoadBSPFile: 'Deem_Single_Player.bsp'
 BSP is version BSP2
- 14333 leafs
- 52079 portals
+ 15973 leafs
+ 58501 portals
 ************ ERROR ************
 Leaf with too many portals
